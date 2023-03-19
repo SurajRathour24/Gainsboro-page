@@ -1,0 +1,176 @@
+/***********************Banner Video ALignment********************/
+#bgvideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 100vh;
+}
+header{
+  height: 100vh;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    /* padding: 5%; */
+}
+
+.bg-video{
+  background: url('/videos/banner-v.mp4');
+}
+
+/**************************************Custom Font color and size **************************************/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --gb-fs-p : 18px;
+    --gb-fs-xsm :14px;
+    --gb-h1 : 60px;
+    --gb-fw : 900;
+    --gb-py-space :80px;
+    --gb-h2 : 50px;
+}
+.gb-h1{
+    font-size: var(--gb-h1);
+    font-weight: 900;
+}
+.gb-h2{
+    font-size: var(--gb-h2);
+}
+.gb-py-space{
+    margin-top: var(--gb-py-space);
+    margin-bottom: var(--gb-py-space);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif !important;
+
+}
+.gb-fs-p{
+    font-size: var(--gb-fs-p);
+}
+.gb-fs-xsm{
+    font-size: var(--gb-fs-xsm);
+}
+/*********************border-bottom under heading-----------------------------------**/
+.h2-border-bottom:before {
+  position: absolute;
+  content: "";
+  border-bottom: 3px solid #99c63c;
+  width: 50%;
+  bottom: 0;
+}
+
+/*********************portfolio bg images*************************************/
+.website-content {
+  bottom: 13%;
+}
+
+.portfolio-bg-img{
+  background-image: url('images/becozy_hotel.webp');
+  min-height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.becozy-fri-bg-img{
+  background-image: url('images/becozy_hotel.webp');
+}
+.wellington-bg-img{
+  background-image: url('images/wellington_port.webp');
+}
+.Polaria-Properties-bg-img{
+  background-image: url('images/polariaproperties_port.webp');
+}
+.homkw-bg-img{
+  background-image: url('images/homkw_port.webp');
+}
+.Becozybasel-bg-img{
+  background-image: url('images/becozy_basel_port.webp');
+}
+.Maverik-bg-img{
+  background-image: url('images/maverik_port.webp');
+}
+.yogiation-bg-img{
+  background-image: url('images/yogiation_port.webp');
+}
+.Becozy-bg-img{
+  background-image: url('images/becozy_port.webp');
+}
+.Bellaamore-bg-img{
+  background-image: url('images/bellamore_port.webp');
+}
+.Animalsocks-bg-img{
+  background-image: url('images/animalsocks_port.webp');
+}
+.Vidhiwadhwani-bg-img{
+  background-color: url('images/vidhivadhwani_port.webp');
+}
+.Goldensandstanning-bg-img{
+  background-image: url('images/goldensands_port.webp');
+}
+.Locus-Group-bg-img{
+  background-image: url('images/locusgroup_port.webp');
+}
+.Maulshreeruia-bg-img{
+  background-image: url('images/maulshree_port.webp');
+}
+.Bekedandco-bg-img{
+  background-image: url('images/bakeandco_port.webp');
+}
+.Aquapowergroup-bg-img {
+  background-image: url('images/aquapower_port.webp');
+}
+
+
+
+  .dropdown-menu {
+    position: absolute;
+    top: -100px !important;
+    left: 170px !important;
+    width: 270px;
+    height: 100vh !important;
+    padding: 15% 20px !important;
+}
+  @media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+    .dropdown-menu.show {
+      display: flex;
+    }
+  }
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+      flex-wrap: wrap;
+      max-height: 350px;
+      overflow-y: scroll;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+      width: 40vw;
+      flex-wrap: wrap;
+    }
+  }
+
+/***************media***************************/
+@media only screen and (max-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+      max-height: 350px;
+      overflow-y: scroll;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+
+  }
+
